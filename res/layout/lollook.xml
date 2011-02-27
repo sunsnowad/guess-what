@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_marginBottom="1pt"
+	android:layout_marginLeft="5sp"
+	android:layout_marginRight="5sp">
+	<LinearLayout 
+		android:id="@+id/lolLinearLayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true">
+		<Button
+			android:id="@+id/buttonLolNext"
+			android:text="下一个"
+			android:textSize="10pt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1">
+		</Button>
+		<Button
+			android:id="@+id/buttonLolBack"
+			android:text="@string/sReturnToMain"
+			android:textSize="10pt"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+	<TextView 
+		android:id="@+id/textSourceWord"
+		android:text="no data"
+		android:textSize="10pt"
+		android:layout_alignParentTop="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	</TextView>
+	<RatingBar android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lolLinearLayout"
+        android:layout_marginTop="5pt"
+        android:layout_marginBottom="5pt"
+        android:numStars="5"
+        android:stepSize="1.0">
+    </RatingBar>
+	<TextView 
+		android:id="@+id/textGuessResult"
+		android:textSize="10pt"
+		android:text="no data"
+		android:layout_above="@id/ratingbar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	</TextView>
+	<TextView
+		android:id="@+id/textLolDesc"
+		android:textSize="9pt"
+		android:layout_below="@id/textSourceWord"
+		android:layout_above="@id/textGuessResult"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</TextView>
+</RelativeLayout>

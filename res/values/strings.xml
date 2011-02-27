@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Yestin_First!</string>
+    <string name="app_name">GuessWhat</string>
+    <string name="sAnswerQ">猜一猜</string>
+    <string name="sGiveQ">我来描述</string>
+    <string name="sLol">随便看看</string>
+    <string name="sRelative">关于</string>
+    <string name="sExit">退出</string>
+    
+    <string name="sChangeObj">换个来猜</string>
+    <string name="sNextDesc">下一个描述</string>
+    <string name="sYouGuess">你猜它是:</string>
+    <string name="sSubmit">提交答案</string>
+    <string name="sHelpMe">这个词是</string>
+    <string name="sReturnToMain">返回主菜单</string>
+    
+    <string name="sGTextWord">词语:</string>
+    <string name="sGWordDesc">十五个字来描述:</string>
+    <string name="sGSubmit">提交</string>
+    <string name="sGReturnToMain">返回主菜单</string>
+    <string name="sGAutoGen">自动生成</string>
+    <string name="sGByHand">自定制</string>
+    
+    <string name="sGuessWhatHelp">帮助:在"猜一猜"这个部分，
+    		你会看到一句话的描述，如果你能猜到是什么，就在框里填上它，看看是否能猜对；
+    		如果你猜不到，你可以看一看同一个词的下一个描述，或者尝试换一个新的词来猜。
+    		看看你能猜出多少来:)</string>
+    <string name = "sGiveDescHelp">帮助：在"我来描述"这个部分，你会看到一个给定
+    		的词语，请在15个字以内尝试描述它。这些描述会被其他玩家看到，他们会
+    		尝试根据这些描述来猜出这是什么，看看你描述的给不给力:)</string>
+</resources>

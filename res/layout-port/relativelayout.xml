@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome">
+    
+<Button android:text="@string/sExit"
+	android:id="@+id/buttonExit"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_marginLeft="10sp"
+	android:layout_marginRight="10sp"
+	>
+</Button>
+<Button android:text="@string/sRelative"
+	android:id="@+id/buttonRelative"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_above="@+id/buttonExit"
+	android:layout_marginLeft="10sp"
+	android:layout_marginRight="10sp"
+	>
+</Button>
+<Button android:text="@string/sLol"
+	android:id="@+id/buttonLol"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_above="@+id/buttonRelative"
+	android:layout_marginLeft="10sp"
+	android:layout_marginRight="10sp"
+	>
+</Button>
+<Button android:text="@string/sGiveQ"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:id="@+id/buttonGiveQ"
+	android:layout_above="@id/buttonLol"
+	android:layout_marginLeft="10sp"
+	android:layout_marginRight="10sp"
+	>
+</Button>
+<Button android:text="@string/sAnswerQ"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:id="@+id/buttonAnswerQ"
+	android:layout_above="@id/buttonGiveQ"
+	android:layout_marginLeft="10sp"
+	android:layout_marginRight="10sp"
+	>
+</Button>
+</RelativeLayout>
