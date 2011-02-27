@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<Button
+		android:id="@+id/buttonKnowGiveDescHelp"
+		android:text="我知道了"
+		android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		>
+	</Button>
+	<CheckBox android:id="@+id/checkboxGiveDescHelp"
+		android:layout_above="@id/buttonKnowGiveDescHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:checked="false"
+        android:text="下次不再显示" >
+    </CheckBox>
+    <TextView
+    	android:id="@+id/textViewGiveDescHelp"
+    	android:text="@string/sGiveDescHelp"
+    	android:layout_alignParentTop="true"
+    	android:layout_above="@+id/checkboxGiveDescHelp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="1sp"
+    android:layout_marginTop="1sp">
+
+<Button android:text="Answer Question" 
+		android:id="@+id/buttonAnswerQ" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_marginTop="1sp"
+		android:layout_marginBottom="1sp"
+		>
+</Button>
+<Button android:text="Give Question" 
+		android:id="@+id/buttonGiveQ" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_marginTop="1sp"
+		android:layout_marginBottom="1sp">
+</Button>
+<Button android:text="LoL" 
+		android:id="@+id/buttonLol" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_marginTop="1sp"
+		android:layout_marginBottom="1sp">
+</Button>
+<Button android:text="EXIT" 
+		android:id="@+id/buttonExit" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_marginTop="1sp"
+		android:layout_marginBottom="1sp">
+</Button>
+</LinearLayout>
